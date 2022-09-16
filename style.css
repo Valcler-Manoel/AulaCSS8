@@ -1,0 +1,104 @@
+body{
+    background-image: url("fundo.jpg");
+    }
+    
+        h1{
+            font-family: 'Lobster', cursive;
+        font-size: 440%;
+        text-align: center;
+        }
+    
+        h2{
+
+        font-family: 'Poppins:wght@300', sans-serif;
+        font-style: italic;
+        font-size: larger;
+        text-align: center;
+        }
+
+    
+        h3{
+            font-family: 'Lobster', cursive;
+            font-size: 153%;
+
+        }
+
+        
+
+#zen-preamble{
+    width: 100%;
+    background: #3c3d3b8c;
+    text-align: center;
+    font-family: 'Farsan', cursive;
+    padding: 24px;
+    margin-top: 15px;
+    color: white;
+    font-size: 1em;
+    text-size-adjust: normal;
+}
+
+#zen-explanation{
+    width: 100%;
+    background: #d9dda893;
+    margin-top: 15px;
+    font-family: 'Farsan', cursive;
+    text-align: center;
+    padding: 24px;
+    color: rgb(80, 60, 23);
+    font-size: 1em;
+
+}
+
+#zen-participation{
+    width: 100%;
+    background: #d9dda893;
+    margin-top: 15px;
+    font-family: 'Farsan', cursive;
+    text-align: center;
+    padding: 24px;
+    color: rgb(80, 60, 23);
+    font-size: 1em;
+}
+
+#zen-requirements{
+    width: 100%;
+    background: #d9dda893;
+    margin-top: 15px;
+    font-family: 'Farsan', cursive;
+    text-align: center;
+    padding: 24px;
+    
+    color: rgb(80, 60, 23);
+    font-size: 1em;
+}
+
+#design-selection{
+    margin: center;
+    display: inline-block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+    width: 20%;
+    background: #a8962e;
+    margin-top: 19px;
+    margin-left: 27%;
+    text-align: center;
+    padding: 40px 50px;
+    
+    color: white;
+    font-size: 1em;
+}
+#zen-benefits{
+    
+    margin: center;
+    display: inline-block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+    width: 20%;
+    background: #a8962e;
+    margin-top: 19px;
+    text-align: center;
+    padding: 68px 50px;
+    
+    color: white;
+    font-size: 1em;
+}
