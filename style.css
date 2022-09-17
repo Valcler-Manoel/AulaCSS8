@@ -1,0 +1,143 @@
+
+
+* 
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    position: relative;
+    padding-bottom: 58px;
+    min-height: 100vh;
+  }
+  header {
+    text-align: center;
+    background-color: rgba(221, 215, 210, 0.89);
+    color: #fff;
+    padding: 50px;
+    color: black;
+  }
+
+  .description{
+    font-family: 'Noto Sans', sans-serif;
+
+  }
+
+  li{
+    margin-top: 15px;
+
+  }
+
+  .celularfoto, .informacoes {
+    display: inline-block;
+    text-align: center;
+  }
+
+  .video{
+    text-align: center;
+    width: 100%;
+  }
+  .informacoes{
+    float: left;
+    text-align: center;
+  }
+
+  .celularfoto{
+    text-align: left, 10px;
+  }
+  
+
+  h1{
+    font-family: 'Press Start 2P', cursive;
+    letter-spacing: -1px;
+  }
+  h5{
+    text-align: center;
+  }
+
+  .logo{
+    padding: 5px;
+  }
+  
+  .logo img{
+    display: block;
+
+    width: 80px;
+    max-width: 544px;
+  }
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+  }
+  header p {
+    font-size: 22px;
+  }
+  main {
+    width: 90vw;
+    margin: 0 auto;
+    padding: 30px 20px;
+
+  }
+  article {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-justify: center;
+  }
+  article:last-child {
+    margin-bottom: 0;
+  }
+  article h3 {
+    margin: 10px 0 25px 0;
+  }
+  article p {
+    margin-top: 16px;
+    line-height: 24px;
+  }
+  footer {
+    text-align: center;
+    background-color: rgba(192, 99, 11, 0.89);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  @media(max-width:768px) {
+    header { padding: 30px 20px; }
+    header h1 { font-size: 36px; margin-bottom: 22px; }
+    header p { font-size: 18px; }
+    main { width: 100vw; padding: 20px; }
+    article { margin-bottom: 16px; font-size: 14px; }
+    article h3 { margin: 10px 0 20px 0; }
+    article p { margin-top: 16px; line-height: 20px; }
+  }
+
+  .articles{
+  margin-top: 30px;
+}
+.articles .article{
+  display: flex;
+  flex-wrap:wrap;
+  margin-bottom: 30px;
+}
+.articles .article .left img{
+  height: 300px;
+  width: 500px;
+}
+.articles .article .right {
+  margin-left: 40px;
+  max-width: 50%;
+}
+.articles .article .right p.date{
+  color: #7f7e7e;
+}
+.articles .article .right p.description{
+  color: #2d2d2d;
+}
